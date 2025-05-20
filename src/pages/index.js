@@ -36,7 +36,9 @@ export default function Home() {
           />
           <ol>
             <li>
-              Get started by editing <code>src/pages/index.js</code>.
+                <h1 className="text-4xl font-bold text-green-500"> 
+                  Get started by editing <code>src/pages/index.js</code>.
+                </h1>
             </li>
             <li>Save and see your changes instantly.</li>
           </ol>
