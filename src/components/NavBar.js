@@ -9,8 +9,8 @@ export default function NavBar() {
       margin: '32px 0'
     }}>
       <Link href="/" style={{ color: '#ff5e62', fontWeight: 600, textDecoration: 'none' }}>Home</Link>
-      <a href="/gallery" style={{ color: '#ff5e62', fontWeight: 600, textDecoration: 'none' }}>Gallery</a>
-      <a href="/about" style={{ color: '#ff5e62', fontWeight: 600, textDecoration: 'none' }}>About Me</a>
+      <Link href="/gallery" style={{ color: '#ff5e62', fontWeight: 600, textDecoration: 'none' }}>Gallery</Link>
+      <Link href="/about" style={{ color: '#ff5e62', fontWeight: 600, textDecoration: 'none' }}>About Me</Link>
     </nav>
   );
 }
