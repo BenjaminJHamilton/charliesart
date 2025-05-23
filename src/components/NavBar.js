@@ -5,12 +5,16 @@ export default function NavBar() {
     <nav style={{
       display: 'flex',
       justifyContent: 'center',
-      gap: 32,
-      margin: '32px 0'
+      gap: 48,
+      margin: '40px 0',
+      fontFamily: 'system-ui, sans-serif',
+      fontSize: '1.35rem',
+      fontWeight: 700,
+      letterSpacing: '0.02em'
     }}>
-      <Link href="/" style={{ color: '#ff5e62', fontWeight: 600, textDecoration: 'none' }}>Home</Link>
-      <Link href="/gallery" style={{ color: '#ff5e62', fontWeight: 600, textDecoration: 'none' }}>Gallery</Link>
-      <Link href="/about" style={{ color: '#ff5e62', fontWeight: 600, textDecoration: 'none' }}>About Me</Link>
+      <Link href="/" style={{ color: '#ff5e62', textDecoration: 'none' }}>Home</Link>
+      <Link href="/gallery" style={{ color: '#ff5e62', textDecoration: 'none' }}>Gallery</Link>
+      <Link href="/about" style={{ color: '#ff5e62', textDecoration: 'none' }}>About Me</Link>
     </nav>
   );
 }
